@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Jetbrains';
+    src: url(../fontes/JetBrains_Mono/JetBrainsMono-Italic-VariableFont_wght.ttf) format(TrueType);
+}
+@font-face {
+    font-family: 'Inter' ;
+    src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(TrueType);
+}
+
+:root{
+/*menu*/
+    --cor1:#5eadc7;
+    --cor2:#966DA9;
+    --cor3:#D6D98F;
+    --cor4:#262626;
+    
+    --cor5:#000000;
+    --cor6:#ffffff;
+
+/*resto do site*/
+    --cor7:#9E9BF2;
+    --cor8:#85B1EF;
+    --cor9:#e0e9ffd3;
+    --cor10:#D9798B;
+    --cor11:#dac788;
+
+    --font1:'Jetbrains';
+    --font2:'Inter';
+}
+
+
+*{
+    font-family: var(--font1) ;
+    font-weight: 300;
+    margin: 0px ;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh ;
+    background-color: var(--cor5) ;
+
+
+}
+
+nav{
+    margin: 90px 10px 150px 25px;
+}
+    p {
+        color: var(--cor6);
+        padding: 5px;
+    }
+
+    p.identmin {
+        text-indent: 30px;
+    }
+
+    p.identmax {
+        text-indent: 60px ;
+    }
+
+    span.azul {
+        color: var(--cor1) ;
+    }
+
+    span.rosa {
+        color: var(--cor2);
+    }
+
+    span.amarelo {
+        color: var(--cor3);
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--cor1);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a.amarelo:hover {
+        text-decoration: underline;
+        color: var(--cor1);
+    }
+    
+    a.amarelo {
+        color: var(--cor3);
+    }
+
+
+main {
+    background-color: var(--cor4);
+    color: white;
+}
+    h1 {
+        color: var(--cor10) ;
+        font-family: var(--font1);
+        font-size: 30px ;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.652);
+        padding: 20px 10px 10px 7px ;
+        margin: 10px ;
+    }
+        h1.h2 {
+            color: var(--cor7) ;
+            font-family: var(--font1);
+            font-size: 24px;
+            text-indent: 10px ;
+            padding: 5px 10px 5px 10px ;
+            margin: 10px ;
+        }
+
+
+    h2 {
+        color: var(--cor8) ;
+        font-family: var(--font2);
+        text-indent: 10px ;
+        padding: 5px 10px 5px 10px ;
+        margin: 10px ;
+        
+    }
+
+
+    abbr.titleh2 {
+        font-family: var(--font2);
+        font-size: 18px;
+        text-decoration: none;
+    }
+        abbr.titleh2:hover {
+            color: var(--cor7);
+        }
+
+
+    small {
+        color: var(--cor7) ;
+        font-family: var(--font1) ;
+        font-size: 15px ;
+    }
+
+
+    article > section > p {
+        color: var(--cor9);
+        text-indent: 40px  ;
+        margin-bottom: 40px ;
+    }
+        p.variosp {
+            color: var(--cor9);
+            text-indent: 40px ;
+            margin-bottom: -5px;
+        }
+
+
+    div.dentrodatag {
+        color: var(--cor11);
+        text-indent: 60px ;
+    }
+
+
+    abbr {
+        font-family: var(--font1);
+        font-size: 16px;
+        text-decoration: none;
+    }
+        abbr:hover {
+            color: var(--cor7);
+        }
