@@ -40,15 +40,13 @@
 
 
 body {
-    height: 100vh ;
+    height: 98vh ;
     background-color: var(--cor5) ;
-
-
 }
 
 
-nav{
-    margin: 70px 10px 150px 10px;
+nav {
+
 }
     p {
         color: var(--cor6);
