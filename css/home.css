@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Jetbrains';
+    src: url(../fontes/JetBrains_Mono/JetBrainsMono-Italic-VariableFont_wght.ttf) format(TrueType);
+}
+@font-face {
+    font-family: 'Inter' ;
+    src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format(TrueType);
+}
+
+:root {
+    --cor1:#5eadc7;
+    --cor2:#966DA9;
+    --cor3:#BF7950;
+    --cor4:#D6D98F;
+    --cor5:#A4B0BF;
+    --cor6:#262626;
+    
+    --cor7:#ffffff;
+    --cor8:#000000;
+
+    --font1:'Jetbrains',monospace;
+    --font2:'Inter', monospace;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+
+* {
+    font-family: var(--font1) ;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px ;
+}
+
+
+body {
+    height: 98vh ;
+    background-color: var(--cor6) ;
+}
+
+
+nav {
+    margin: 90px 10px 10px 25px ;
+}
+    p {
+        color: var(--cor7);
+        padding: 5px;
+    }
+        p.identmin {
+            text-indent: 30px;
+        }
+        p.identmax {
+            text-indent: 60px ;
+        }
+
+    span.azul {
+        color: var(--cor1) ;
+    }
+    span.rosa {
+        color: var(--cor2);
+    }
+    span.amarelo {
+        color: var(--cor4);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--cor1);
+    }
+        a:hover {
+            text-decoration: underline;
+        }
+        a.amarelo {
+            color: var(--cor4);
+        }
+        a.amarelo:hover {
+            text-decoration: underline;
+            color: var(--cor1);
+        }
+
+
