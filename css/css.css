@@ -38,12 +38,14 @@
     font-size: 16px;
 }
 
+
 body {
     height: 100vh ;
     background-color: var(--cor5) ;
 
 
 }
+
 
 nav{
     margin: 90px 10px 150px 25px;
@@ -52,23 +54,19 @@ nav{
         color: var(--cor6);
         padding: 5px;
     }
-
-    p.identmin {
-        text-indent: 30px;
-    }
-
-    p.identmax {
-        text-indent: 60px ;
-    }
+        p.identmin {
+            text-indent: 30px;
+        }
+        p.identmax {
+            text-indent: 60px ;
+        }
 
     span.azul {
         color: var(--cor1) ;
     }
-
     span.rosa {
         color: var(--cor2);
     }
-
     span.amarelo {
         color: var(--cor3);
     }
@@ -77,19 +75,18 @@ nav{
         text-decoration: none;
         color: var(--cor1);
     }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    a:hover {
-        text-decoration: underline;
-    }
-
-    a.amarelo:hover {
-        text-decoration: underline;
-        color: var(--cor1);
-    }
-    
-    a.amarelo {
-        color: var(--cor3);
-    }
+        a.amarelo:hover {
+            text-decoration: underline;
+            color: var(--cor1);
+        }
+        
+        a.amarelo {
+            color: var(--cor3);
+        }
 
 
 main {
@@ -113,7 +110,6 @@ main {
             margin: 10px ;
         }
 
-
     h2 {
         color: var(--cor8) ;
         font-family: var(--font2);
@@ -122,7 +118,6 @@ main {
         margin: 10px ;
         
     }
-
 
     abbr.titleh2 {
         font-family: var(--font2);
@@ -133,13 +128,11 @@ main {
             color: var(--cor7);
         }
 
-
     small {
         color: var(--cor7) ;
         font-family: var(--font1) ;
         font-size: 15px ;
     }
-
 
     article > section > p {
         color: var(--cor9);
@@ -152,12 +145,10 @@ main {
             margin-bottom: -5px;
         }
 
-
     div.dentrodatag {
         color: var(--cor11);
         text-indent: 60px ;
     }
-
 
     abbr {
         font-family: var(--font1);
