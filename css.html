@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>CSS</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div> 
+                <p> <span class="rosa">if</span> <a href="#">javascript</a>_page() == <span class="rosa">True</span> :</p>
+                <p class="identmax"> <span class="amarelo">celebrate()</span></p>
+                <p> <span class="rosa">else</span> :</p>
+                <p class="identmin"> <span class="rosa">while</span> <a href="../html/home.html"><span class="azul">home</span></a>_page() == <span class="rosa">False</span> :</p>
+                <p class="identmax"> learn_<a href="../html/html.html"><span class="azul">html</span></a>()</p>
+                <p class="identmax"> practice_<a href="../html/css.html"><span class="azul">css</span></a>()</p>
+                <p class="identmax"><span class="amarelo">try_again()</span></p> <!--Futuramente colocar JS para recarregar a pagina nesse botão-->
+                <p class="identmax"><span class="amarelo"><a href="https://github.com/Brenno-pc" class="amarelo" target="_blank" rel="external">follow_me()</a></span></p>
+            </div>
+        </nav> 
+    </header>
+
+    <main>
+        <h1>ESTILOS</h1>
+            <article>
+                <section>
+                    <h2><abbr title="É usado na mesma linha que o conteúdo .html." class="titleh2">ESTILO INLINE</abbr><small>_line()</small></h2>
+                        <p> < h1 style="color: blue;" >< /h1 > </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado no mesmo arquivo que o conteúdo .html, na área <head>."  class="titleh2">ESTILO LOCAL</abbr><small>_head</small></h2>
+                    <p> &lt; style &gt; h1{ color="blue" } &lt; /style &gt; </p>
+                </section>
+                <section>
+                    <h2><abbr title="É criado um arquivo .css para adicionar estilos a ele"  class="titleh2">ESTILO EXTERNO</abbr><small>_.css</small></h2>
+                        <p> @charset "utf-8"; </p>
+                </section>
+            </article>
+
+        <h1> CORES</h1>
+            <article>
+                <section>
+                    <h2><abbr title="Seus niveis vão de 0 (mais escuro) até ff (mais claro)."  class="titleh2">REPRESENTAÇÃO HEXADECIMAL</abbr><small>_#ffffff</small></h2>
+                        <p> #0000ff </p>
+                </section>
+                <section>
+                    <h2><abbr title="Seus niveis vão de (0 até 255)."  class="titleh2">REPRESENTAÇÃO RGB</abbr><small>_rgb()</small></h2>
+                        <p> rgb(0, 0, 255) </p>
+                </section>
+                <section>
+                    <h2><abbr title="É composto por (matiz saturação luminosidade)"  class="titleh2">REPRESENTAÇÃO HSL</abbr><small>_hsl()</small></h2>
+                        <p> hsl(240, 100%, 50%) </p>
+                </section>
+                <section>
+                    <h2><abbr title="Dentro do linear gradient é definido : direção do degradê e as cores"  class="titleh2">DEGRADÊ DE CORES</abbr><small>_linear-gradient()</small></h2>
+                        <p> background: linear-gradient(45deg, blue, white); </p>
+                </section>
+            </article>
+
+        <h1>TIPOGRAFIA</h1>
+            <article>
+                <section>
+                    <h2><abbr title="Adicione uma fonte baixada e então coloque na tag."  class="titleh2">FONTES INTERNAS</abbr><small>_@font-face</small></h2>
+                        <p>@font-face { font-family: ; src: url();} </p>
+                </section>
+                <section>
+                    <h2><abbr title="Adiciona a url de uma fonte externa."  class="titleh2">FONTES EXTERNAS</abbr><small>_@import</small></h2>
+                        <p> @import url(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para alinhar o texto, seja centralizado, direita, esquerda ou justificado."  class="titleh2">ALINHAMENTO DE TEXTO</abbr><small>_align</small></h2>
+                        <p> text-align:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para adicionar sublinhado, riscar e etc..."  class="titleh2">DECORAÇÃO DE TEXTO</abbr><small>_decoration</small></h2>
+                        <p> text-decoration:();</p>
+                </section>
+                <section>
+                    <h2><abbr title="Usado para adicionar um espaço inicial no parágrafo."  class="titleh2">IDENTAÇÃO DE TEXTO</abbr><small>_indent</small></h2>
+                        <p> text-indent:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para alterar o tipo da fonte."  class="titleh2">FAMILIA DE FONTES</abbr><small>_family</small></h2>
+                        <p> font-family:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para alterar o tamanho da fonte, em PX ou EM"  class="titleh2">TAMANHO DA FONTE</abbr><small>_size</small></h2>
+                        <p> font-size:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para alterar a espessura da fonte."  class="titleh2">PESO DA FONTE</abbr><small>_weight</small></h2>
+                        <p> font-weight:();</p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para alterar o estilo da fonte, como exemplo : itálico."  class="titleh2">ESTILO DA FONTE</abbr><small>_style</small></h2>
+                        <p> font-style:(); </p>
+                </section>
+            </article>
+
+        <h1>SELETORES</h1>
+            <article> 
+                <section>
+                    <h2><abbr title="É usado para acrescentar determinada configuração a apenas 1 tag ao mesmo tempo. SUA REPRESENTAÇÃO É DADO POR : #nomeid"  class="titleh2">IDENTIFICADOR</abbr><small>_id</small></h2>
+                        <p> id="()" </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para acrescentar determinada configuração a mais de 1 tag ao mesmo tempo. SUA REPRESENTAÇÃO É DADO POR : .nomeclass"  class="titleh2">CLASSIFICADOR</abbr><small>_class</small></h2>
+                        <p > class="()" </p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para estilizar uma parte específica do elemento selecionado. REPRESENTAÇÃO ::pseudo-elemento"  class="titleh2">PSEUDO ELEMENTOS</abbr><small>_::</small></h2>
+                        <p>::(pseudo-elemento)</p>
+                </section>
+                <section>
+                    <h2><abbr title="É usado para especificar um estado especial do elemento selecionado. REPRESENTAÇÃO  :pseudo-classe"  class="titleh2">PSEUDO CLASSES</abbr><small>_:</small></h2>
+                        <p> :(pseudo-classe)</p>
+                </section>
+            </article>
+
+        <h1>MODELOS DE CAIXAS</h1> 
+            <article>
+                <h1 class="h2">BOX LEVEL</h1>
+                    <section>
+                        <h2><abbr title="É o tamanho da caixa da letra, seja box ou inline level"  class="titleh2">TAMANHO DA CAIXA</abbr><small>_width_height</small></h2>  
+                            <p class="variosp">width:();</p>
+                            <p>height:();</p>
+                    </section>
+                    <section>
+                        <h2><abbr title="É usado para afastar a letra das bordas da caixa da própria letra."  class="titleh2">PADDING</abbr><small>_padding</small></h2>
+                            <p class="variosp">padding-top:();</p>
+                            <p class="variosp">padding-right:();</p>
+                            <p class="variosp">padding-bottom:();</p>
+                            <p>padding-left:();</p>
+                    </section>  
+                    <section>
+                        <h2><abbr title="É usado para afastar uma letra e sua caixa da borda do site"  class="titleh2">MARGIN</abbr><small>_margin</small></h2>
+                            <p class="variosp">margin-top:();</p>
+                            <p class="variosp">margin-right:();</p>
+                            <p class="variosp">margin-bottom:();</p>
+                            <p>margin-left:();</p>
+                    </section>
+                    <section>
+                        <h2><abbr title="É usado para criar uma linha envolta do conteúdo."  class="titleh2">BORDER</abbr><small>_border</small></h2>
+                            <p class="variosp">border-width:;</p>
+                            <p class="variosp">border-style:;</p> 
+                            <p>border-color:;</p> 
+                    </section>
+            </article>
+            <article>
+                <h1 class="h2">INLINE LEVEL</h1>
+                    <section>
+                        <h2><abbr title="É o tamanho da caixa da letra, seja box ou inline level"  class="titleh2">TAMANHO DA CAIXA</abbr><small>_width_height</small></h2>  
+                            <p class="variosp">width:();</p>
+                            <p>height:();</p>
+                    </section>
+                    <section>
+                        <h2><abbr title="É usado para afastar a letra das bordas da caixa da própria letra."  class="titleh2">PADDING</abbr><small>_padding</small></h2>
+                            <p class="variosp">padding-top:();</p>
+                            <p class="variosp">padding-right:();</p>
+                            <p class="variosp">padding-bottom:();</p>
+                            <p>padding-left:();</p>
+                    </section>  
+                    <section>
+                        <h2><abbr title="É usado para afastar uma letra e sua caixa da borda do site "  class="titleh2">MARGIN</abbr><small>_margin</small></h2>
+                            <p class="variosp">margin-top:();</p>
+                            <p class="variosp">margin-right:();</p>
+                            <p class="variosp">margin-bottom:();</p>
+                            <p>margin-left:();</p>
+                    </section>
+                    <section>
+                        <h2><abbr title="É usado para criar uma linha envolta do conteúdo."  class="titleh2">BORDER</abbr><small>_border</small></h2>
+                            <p class="variosp">border-width:;</p>
+                            <p class="variosp">border-style:;</p> 
+                            <p>border-color:;</p> 
+                    </section>
+            </article>
+
+        <h1>TAGS DE AGRUPAMENTO</h1>
+            <article>   
+                <section>
+                    <h2><abbr title="É o inicio do site."  class="titleh2">CABEÇALHO</abbr><small>_header</small></h2>
+                        <p class="variosp"> < header >< /header > </p>
+                        <div class="dentrodatag"><abbr title="tag para adicionar um menu"> < nav >< /nav > </abbr></div> 
+                        <div class="dentrodatag"><abbr title="É usado para deixar um conteúdo a parte. "> < aside >< /aside > </abbr></div>
+                </section>
+                <section>
+                    <h2><abbr title="É onde tudo que é principal é adicionado."  class="titleh2">CORPO PRINCIPAL</abbr><small>_main</small></h2>
+                        <p class="variosp"> < main >< /main > </p>
+                        <div class="dentrodatag"><abbr title="É usado para agrupar conteúdos."> < section >< /section > </abbr></div>
+                        <div class="dentrodatag"><abbr title="É usado para delimitar conteúdos."> < article >< /article > </abbr></div>
+                        <div class="dentrodatag"><abbr title="É usado para deixar um conteúdo a parte. "> < aside >< /aside > </abbr></div>
+                </section>
+                <section>
+                    <h2><abbr title="É a área inferior do site/ área final."  class="titleh2">RODAPÉ</abbr><small>_footer</small></h2>
+                        <p class="variosp"> < footer >< /footer > </p>
+                        <div class="dentrodatag"><abbr title="tag para adicionar um menu"> < nav >< /nav > </abbr></div> 
+                        <div class="dentrodatag"><abbr title="É usado para deixar um conteúdo a parte. "> < aside >< /aside > </abbr></div>
+                </section>
+            </article>
+
+        <h1>VÁRIAVEIS</h1>
+            <article>
+                <section>
+                    <h2><abbr title=" Ela é útil para definir variáveis CSS globais, que podem ser utilizadas em todo o documento. UTILIZAÇÃO : var(nome da variavel)"  class="titleh2">VARIAVEIS EM CSS</abbr></h2> 
+                        <p> : root { <br> --<abbr title="variavel">(var)</abbr>:<abbr title="função">(funç)</abbr>;  <br> }</p>
+                </section>
+            </article>
+        
+        <h1>RESPONSIVIDADE</h1>
+            <article>
+                <section>
+                    <h2><abbr title="Tamanho máximo que o site vai ocupar na tela."  class="titleh2">LARGURA MÁXIMA</abbr></h2>
+                        <p> max-width:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="Tamanho mínimo que o site vai ocupar na tela."  class="titleh2">LARGURA MÍNIMA</abbr></h2>
+                        <p> min-width:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="Imagens que alteram o tamanho conforme a resolução da tela."  class="titleh2">IMAGENS DINÂMICAS</abbr></h2>
+                    <p> < picture > < source media="(min-width: )" srcset="" type="image/" > < /picture > </p>
+                </section>
+            </article>
+        <h1>IMAGENS DE FUNDO</h1>
+            <article>
+                <section>
+                    <h2><abbr title="Adiciona uma imagem no fundo do site."  class="titleh2">IMAGENS NO FUNDO</abbr></h2>
+                        <p> background-image: url(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="Usamos background repeat para dizer se a imagem de fundo irá se repetir ou não."  class="titleh2">REPETIÇÃO DA IMAGEM</abbr></h2>
+                        <p> background-repeat:(); </p>
+                </section>
+                <section>
+                    <h2><abbr title="Determina em que posição a imagem irá ficar."  class="titleh2">POSIÇÃO DA IMAGEM</abbr></h2>
+                        <p class="variosp"> background-position:(); </p>
+                        <div class="dentrodatag">left top</div>
+                        <div class="dentrodatag">left center</div>
+                        <div class="dentrodatag">left bottom</div>
+                        <div class="dentrodatag">center top</div>
+                        <div class="dentrodatag">center center</div>
+                        <div class="dentrodatag">center bottom</div>
+                        <div class="dentrodatag">right top</div>
+                        <div class="dentrodatag">right center</div>
+                        <div class="dentrodatag">right bottom</div>
+                </section>
+                <section>
+                    <h2><abbr title="Maneiraa de deixar a imagem preenchendo toda a tela, independente do tamanho"  class="titleh2">PREENCHIMENTO DA IMAGEM</abbr></h2>
+                        <p class="variosp"> background-size:(); </p>
+                        <div class="dentrodatag"><abbr title="Ao mudar a resolução/tamanho do navegador, a imagem fica distorcida.">100% 100%</abbr></div>
+                        <div class="dentrodatag"><abbr title="A imagem fica no seu tamanho normal sendo 100% exibida.">contain</abbr></div>
+                        <div class="dentrodatag"><abbr title="Cobre a tela inteira, cortando a imagem para ser exibida 100% na resolução do navegador.">cover</abbr></div>
+                </section>
+                <section>
+                    <h2><abbr title="Como a imagem vai se comportar quando tiver algum conteudo à frente da imagem."  class="titleh2">VINCULOS DA IMAGEM</abbr></h2>
+                        <p class="variosp"> background-attachment:(); </p>
+                        <div class="dentrodatag"><abbr title="Cria uma rolagem na tela, independente da imagem de fundo.">scroll</abbr></div>
+                        <div class="dentrodatag" ><abbr title="Deixa o fundo fixo, mantendo apenas o conteúdo com rolagem." >fixed</abbr></div>
+                </section>
+            </article>
+    </main>
+</body>
+</html>
