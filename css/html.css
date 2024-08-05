@@ -24,8 +24,6 @@
     --font2:'Inter', monospace;
 }
 
-/*-------------------------------------------------------------------------------------------------------------*/
-
 
 * {
     font-family: var(--font1) ;
@@ -91,13 +89,11 @@ main {
         font-size: 28px ;
         text-align: left ;
         padding: 30px 15px 15px 10px ;
-        
     }
 
     h2 {
         color: var(--cor4);
         font-family:var(--font1) ;
-
         font-style: none ;
         text-align: left ;
         text-indent: 20px ;
@@ -144,4 +140,3 @@ main {
     div.marginbottom {
         margin-bottom: 15px;
     }
-
