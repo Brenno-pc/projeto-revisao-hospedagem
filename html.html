@@ -27,195 +27,227 @@
 
     <main>
         <h1>FORMATAÇÃO DE TEXTOS</h1>
-        <section>
-            <article> 
-                <h2><abbr title="Usado para adicionar titulos e subtítulos. ">HIERARQUIA DE TITULOS</abbr><small>_h1_h6()</small></h2>
-                    <p> < h1 >< /h1 >...< h6 >< /h6 > </p>
-            </article>
-            <article>
-                <h2><abbr title="Usado para adicionar um parágrafo.">PÁRAGRAFOS</abbr><small>_p()</small></h2> 
-                    <p> < p >< /p > </p>
-            </article>
-            <article>
-                <h2><abbr title="Quebra a linha e continua na linha debaixo.">QUEBRA DE LINHA</abbr><small>_br()</small></h2>
-                    <p> < br > </p>
-            </article>
-            <article>
-                <h2><abbr title="Coloca um significado na letra para dar um destaque a ela, deixando-a maior.(tag obsoleta)">TEXTO GRANDE</abbr><small>_big()</small></h2>
-                    <p> < big >< /big ></p>
-            </article>
-            <article>
-                <h2><abbr title="Coloca um significado na letra para deixa-lá menor.">TEXTO PEQUENO</abbr><small>_small()</small></h2>
-                    <p> < small >< /small > </p>
-            </article>
-            <article>
-                <h2><abbr title="Deixa a letra com um significado (mais forte)">TEXTO NEGRITO</abbr><small>_strong()</small></h2>
-                    <p> < strong >< /strong > </p>
-            </article>
-            <article>
-                <h2><abbr title="Deixa a letra mais inclinada">TEXTO ITÁLICO</abbr><small>_em()</small></h2>
-                    <p> < em >< /em > </p>
-            </article>
-            <article>
-                <h2><abbr title="Acrecenta uma linha abaixo da letra, deixando sublinhado">TEXTO SUBLINHADO</abbr><small>_ins()</small></h2>
-                    <p> < ins >< /ins > </p>
-            </article>
-            <article>
-                <h2><abbr title="Coloca o significado de uma palavra dentro da própria palavra">TEXTO ABREVIADO</abbr><small>_abbr()</small></h2>
-                    <p> < abbr title="" >< /abbr > </p>
-            </article>
-        </section>
-        <h1>LISTAS</h1>
-        <section>
-            <article>
-                <h2><abbr title="">LISTAS ORDENADAS</abbr><small>_ol()</small></h2>
-                    <p>< ol > <abbr title=""> < li >< /li > </abbr> < /ol ></p>
-            </article>
-            <article>
-                <h2><abbr title="">LISTAS NÃO ORDENADAS</abbr><small>_ul()</small></h2>
-                    <p>< ul > < li >< /li > < /ul ></p>
-            </article>
-            <article>
-                <h2><abbr title="">LISTAS MISTAS</abbr><small>_ol_ul()</small></h2>
-                    <p> < ol >< ul >< li >< /li >< /ul >< /ol > </p>
-            </article>
-        </section>
-        <h1>LINKS</h1>
-        <section>
-            <article>
-                <h2><abbr title="Links que redirecionam para outras páginas internas.">LINKS INTERNOS</abbr><small>_a()</small></h2>
-                    <p> < a href="" >< /a > </p>
-                    <div>rel="previos"</div> <br>
-                    <div>rel="next"</div> <br>
-                    <div class="marginbottom">rel="nofollow"</div>
-            </article>
-            <article>
-                <h2><abbr title="Links que redirecionam para páginas externas.">LINKS EXTERNOS</abbr><small>_a()</small></h2>
-                <p> < a href="" >< /a > </p>
-                <div>target="_blank"></div> <br>
-                <div>rel="external"</div> <br>
-                <div class="marginbottom">rel="nofollow"</div>
-            </article>
-            <article>
-                <h2><abbr title="Links que redirecionam para executar um download.">LINKS DOWNLOAD</abbr><small>_a()</small></h2>
-                <p> < a href="" >< /a > </p>
-                <div>download=""</div> <br>
-                <div class="marginbottom">type=""</div> <br>
-            </article>
-        </section>
-        <h1>IMAGENS</h1>
-        <section>
-            <article>
-                <h2><abbr title="Imagens que estão armazenadas no próprio computador.">IMAGENS INTERNAS</abbr><small>_img()</small></h2>
-                    <p> < img src="" alt="" > </p>
-            </article>
-            <article>
-                <h2><abbr title="Imagens de url por exemplo.">IMAGENS EXTERNAS</abbr><small>_img()</small></h2>
-                    <p> < img src="" alt="" > </p>
-            </article>
-        </section> 
-        <h1>VIDEOS</h1>
-        <section>
-            <article>
-                <h2><abbr title="Videos armazenados no próprio computador.">VIDEOS INTERNOS</abbr><small>_video()</small></h2>
-                <p> < video > < source src="" type="" >< /video > </p>
-                    <div>width=""</div> <br>
-                    <div>poster=""</div> <br>
-                    <div class="marginbottom">controls</div>
-            </article>
-            <article>
-                <h2><abbr title="Videos armazenados em outras plataformas.">VIDEOS EXTERNOS</abbr><small>_iframe()</small></h2>
-                    <p><abbr title="Usa o compatilhar e o incorporar do youtube.">
-                        < iframe width="560" height="315" src="https://www.youtube.com/embed/uT4O1BTg4FU? <br>si=ZqV1qkYEv2IF7Col"title="YouTube video player" frameborder="0" allow="accelerometer; <br>autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" <br>referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>< /iframe >
-                    </abbr></p>
-            </article>
-        </section>
-        <h1>AUDIOS</h1>
-        <section>
-            <article>
-                <h2><abbr title="Tag para melhor compatibilidade com audios nos sites.">AUDIO COMPATIBILIDADE</abbr><small>_audio()</small></h2>
-                    <p> < audio src="" > < source src="" type="" > < /audio > </p>
-                    <div>preload="auto"</div> <br>
-                    <div>preload="metadata"</div> <br>
-                    <div>preload="none"</div> <br>
-                    <div>controls</div> <br>
-                    <div class="marginbottom">loop</div> <br>
-            </article> 
-        </section>
-        <h1>TABELAS</h1>
-        <section>
-            <article>
-                <h2><abbr title="Tag base das tabelas">TABELA BASE</abbr><small>_table()</small></h2>
-                    <p> < table >< /table > </p>
-            </article>
-            <article>
-                <h2><abbr title="Alinhamento horizontal de uma tabela">ALINHAMENTO HORIZONTAL</abbr><small>_text-align()</small></h2>
-                    <p> text-align:(); </p>
-            </article>
-            <article>
-                <h2><abbr title="Alinhamento vertical de uma tabela">ALINHAMENTO VERTICAL </abbr><small>_vertical-align()</small></h2>
-                    <p> vertical-align:(); </p>
-            </article>
-            <article>
-                <h2><abbr title="Cabeçalho da tabela">TABELAS GRANDES</abbr><small>_thead()</small></h2>
-                    <p> < thead >< /thead > </p>
-                    <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
-                    <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
-                    <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
+            <section>
+                <article> 
+                    <h2><abbr title="Usado para adicionar titulos e subtítulos. ">HIERARQUIA DE TITULOS</abbr><small>_h1_h6()</small></h2>
+                        <p> < h1 >< /h1 >...< h6 >< /h6 > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Usado para adicionar um parágrafo.">PÁRAGRAFOS</abbr><small>_p()</small></h2> 
+                        <p> < p >< /p > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Quebra a linha e continua na linha debaixo.">QUEBRA DE LINHA</abbr><small>_br()</small></h2>
+                        <p> < br > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Coloca um significado na letra para dar um destaque a ela, deixando-a maior.(tag obsoleta)">TEXTO GRANDE</abbr><small>_big()</small></h2>
+                        <p> < big >< /big ></p>
+                </article>
+                <article>
+                    <h2><abbr title="Coloca um significado na letra para deixa-lá menor.">TEXTO PEQUENO</abbr><small>_small()</small></h2>
+                        <p> < small >< /small > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Deixa a letra com um significado (mais forte)">TEXTO NEGRITO</abbr><small>_strong()</small></h2>
+                        <p> < strong >< /strong > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Deixa a letra mais inclinada">TEXTO ITÁLICO</abbr><small>_em()</small></h2>
+                        <p> < em >< /em > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Acrecenta uma linha abaixo da letra, deixando sublinhado">TEXTO SUBLINHADO</abbr><small>_ins()</small></h2>
+                        <p> < ins >< /ins > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Coloca o significado de uma palavra dentro da própria palavra">TEXTO ABREVIADO</abbr><small>_abbr()</small></h2>
+                        <p> < abbr title="" >< /abbr > </p>
+                </article>
+            </section>
 
-            </article> 
-            <article>
-                <h2><abbr title="Corpo da tabela">TABELAS GRANDES</abbr><small>_tbody()</small></h2>
-                    <p> < tbody >< /tbody > </p>
-                    <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
-                    <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
-                    <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
-            </article>
-            <article>
-                <h2><abbr title="Rodapé da tabela">TABELAS GRANDES</abbr><small>_tfoot()</small></h2>
-                    <p> < tfoot >< /tfoot > </p>
-                    <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
-                    <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
-                    <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
-            </article>
-            <article>
-                <h2><abbr title="Acrescenta o título da tabela">CAPTION</abbr><small>_caption()</small></h2>
-                    <p> < caption >< /caption > </p>
-            </article>
-            <article>
-                <h2><abbr title="Para dizer que X é um titulo da coluna X ou Para dizer que Y é um titulo da linha Y.">ESCOPO</abbr><small>_scope()</small></h2>
-                    <p> scope="" </p>
-                    <div>  scope="col" </div> <br>
-                    
-                    <div>  scope="row" </div> <br>
-                    
-            </article>
-            <article>
-                <h2><abbr title="Para dizer que X é um titulo de determinado grupo de coluna X ou Para dizer que Y é um titulo de determinado grupo da linha Y">ESCOPO DE GRUPOS</abbr><small>_scope()</small></h2>
-                    <p>scope=""</p>
-                    <div>  scope="colgroup" </div> <br>
-                    <div>  scope="rowgroup" </div> <br>
-            </article>
-            <article>
-                <h2><abbr title="Efeito em que uma linha tem uma cor e na outra não">EFEITO ZEBRADO</abbr><small>_nth-child()</small></h2>
-                    <p> :nth-child() </p>
-            </article>
-            <article>
-                <h2><abbr title="É expandir uma coluna (colspan) ou uma linha (rowspan) para preencher um espaço vazio na tabela. ">MESCLAGEM DE CÉLULAS</abbr><small>_col-rowspan()</small></h2>
-                    <p>Colspan:();</p>
-                    <p>Rowspan:();</p>
-            </article>
-            <article>
-                <h2><abbr title="serve para alterar uma coluna como um todo, seja cor ou alguma outra configuração;">AGRUPAMENTO DE COLUNAS</abbr><small>_colgroup</small></h2>
-                    <p> < colgroup >< /colgroup > </p>
-                    <div> < col > </div> <br>
-            </article>
-        </section>
-        <table>
-            
-            
-            
-        </table>
+        <h1>LISTAS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="">LISTAS ORDENADAS</abbr><small>_ol()</small></h2>
+                        <p>< ol > <abbr title=""> < li >< /li > </abbr> < /ol ></p>
+                </article>
+                <article>
+                    <h2><abbr title="">LISTAS NÃO ORDENADAS</abbr><small>_ul()</small></h2>
+                        <p>< ul > < li >< /li > < /ul ></p>
+                </article>
+                <article>
+                    <h2><abbr title="">LISTAS MISTAS</abbr><small>_ol_ul()</small></h2>
+                        <p> < ol >< ul >< li >< /li >< /ul >< /ol > </p>
+                </article>
+            </section>
+
+        <h1>LINKS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Links que redirecionam para outras páginas internas.">LINKS INTERNOS</abbr><small>_a()</small></h2>
+                        <p> < a href="" >< /a > </p>
+                        <div>rel="previos"</div> <br>
+                        <div>rel="next"</div> <br>
+                        <div class="marginbottom">rel="nofollow"</div>
+                </article>
+                <article>
+                    <h2><abbr title="Links que redirecionam para páginas externas.">LINKS EXTERNOS</abbr><small>_a()</small></h2>
+                    <p> < a href="" >< /a > </p>
+                    <div>target="_blank"></div> <br>
+                    <div>rel="external"</div> <br>
+                    <div class="marginbottom">rel="nofollow"</div>
+                </article>
+                <article>
+                    <h2><abbr title="Links que redirecionam para executar um download.">LINKS DOWNLOAD</abbr><small>_a()</small></h2>
+                    <p> < a href="" >< /a > </p>
+                    <div>download=""</div> <br>
+                    <div class="marginbottom">type=""</div> <br>
+                </article>
+            </section>
+
+        <h1>IMAGENS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Imagens que estão armazenadas no próprio computador.">IMAGENS INTERNAS</abbr><small>_img()</small></h2>
+                        <p> < img src="" alt="" > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Imagens de url por exemplo.">IMAGENS EXTERNAS</abbr><small>_img()</small></h2>
+                        <p> < img src="" alt="" > </p>
+                </article>
+            </section> 
+
+        <h1>VIDEOS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Videos armazenados no próprio computador.">VIDEOS INTERNOS</abbr><small>_video()</small></h2>
+                    <p> < video > < source src="" type="" >< /video > </p>
+                        <div>width=""</div> <br>
+                        <div>poster=""</div> <br>
+                        <div class="marginbottom">controls</div>
+                </article>
+                <article>
+                    <h2><abbr title="Videos armazenados em outras plataformas.">VIDEOS EXTERNOS</abbr><small>_iframe()</small></h2>
+                        <p><abbr title="Usa o compatilhar e o incorporar do youtube.">
+                            < iframe width="560" height="315" src="https://www.youtube.com/embed/uT4O1BTg4FU? <br>si=ZqV1qkYEv2IF7Col"title="YouTube video player" frameborder="0" allow="accelerometer; <br>autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" <br>referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>< /iframe >
+                        </abbr></p>
+                </article>
+            </section>
+
+            <h1>AUDIOS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Tag para melhor compatibilidade com audios nos sites.">AUDIO COMPATIBILIDADE</abbr><small>_audio()</small></h2>
+                        <p> < audio src="" > < source src="" type="" > < /audio > </p>
+                        <div>preload="auto"</div> <br>
+                        <div>preload="metadata"</div> <br>
+                        <div>preload="none"</div> <br>
+                        <div>controls</div> <br>
+                        <div class="marginbottom">loop</div> <br>
+                </article> 
+            </section>
+
+        <h1>TABELAS</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Tag base das tabelas">TABELA BASE</abbr><small>_table()</small></h2>
+                        <p> < table >< /table > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Alinhamento horizontal de uma tabela">ALINHAMENTO HORIZONTAL</abbr><small>_text-align()</small></h2>
+                        <p> text-align:(); </p>
+                </article>
+                <article>
+                    <h2><abbr title="Alinhamento vertical de uma tabela">ALINHAMENTO VERTICAL </abbr><small>_vertical-align()</small></h2>
+                        <p> vertical-align:(); </p>
+                </article>
+                <article>
+                    <h2><abbr title="Cabeçalho da tabela">TABELAS GRANDES</abbr><small>_thead()</small></h2>
+                        <p> < thead >< /thead > </p>
+                        <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
+                        <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
+                        <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
+                </article> 
+                <article>
+                    <h2><abbr title="Corpo da tabela">TABELAS GRANDES</abbr><small>_tbody()</small></h2>
+                        <p> < tbody >< /tbody > </p>
+                        <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
+                        <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
+                        <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
+                </article>
+                <article>
+                    <h2><abbr title="Rodapé da tabela">TABELAS GRANDES</abbr><small>_tfoot()</small></h2>
+                        <p> < tfoot >< /tfoot > </p>
+                        <div> <abbr title="Linha da tabela">< tr >< /tr ></abbr> </div> <br>
+                        <div> <abbr title="Acrescenta um titulo a determinado topico da tabela">< th >< /th ></abbr> </div> <br>
+                        <div> <abbr title="Dado da tabela">< td >< /td ></abbr> </div> <br>
+                </article>
+                <article>
+                    <h2><abbr title="Acrescenta o título da tabela">CAPTION</abbr><small>_caption()</small></h2>
+                        <p> < caption >< /caption > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Para dizer que X é um titulo da coluna X ou Para dizer que Y é um titulo da linha Y.">ESCOPO</abbr><small>_scope()</small></h2>
+                        <p> scope="" </p>
+                        <div>  scope="col" </div> <br>
+                        
+                        <div>  scope="row" </div> <br>
+                </article>
+                <article>
+                    <h2><abbr title="Para dizer que X é um titulo de determinado grupo de coluna X ou Para dizer que Y é um titulo de determinado grupo da linha Y">ESCOPO DE GRUPOS</abbr><small>_scope()</small></h2>
+                        <p>scope=""</p>
+                        <div>  scope="colgroup" </div> <br>
+                        <div>  scope="rowgroup" </div> <br>
+                </article>
+                <article>
+                    <h2><abbr title="Efeito em que uma linha tem uma cor e na outra não">EFEITO ZEBRADO</abbr><small>_nth-child()</small></h2>
+                        <p> :nth-child() </p>
+                </article>
+                <article>
+                    <h2><abbr title="É expandir uma coluna (colspan) ou uma linha (rowspan) para preencher um espaço vazio na tabela. ">MESCLAGEM DE CÉLULAS</abbr><small>_col-rowspan()</small></h2>
+                        <p>Colspan:();</p>
+                        <p>Rowspan:();</p>
+                </article>
+                <article>
+                    <h2><abbr title="serve para alterar uma coluna como um todo, seja cor ou alguma outra configuração;">AGRUPAMENTO DE COLUNAS</abbr><small>_colgroup()</small></h2>
+                        <p> < colgroup >< /colgroup > </p>
+                        <div> < col > </div> <br>
+                </article>
+            </section>
+
+        <h1>IFRAME</h1>
+            <section>
+                <article>
+                    <h2><abbr title="Tag para usar o iframe">IFRAME BASE</abbr><small>_iframe()</small></h2>
+                        <p> < iframe src="" frameborder="0" >< /iframe > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Permite trocar as páginas dentro do iframe.">NAVEGAÇÃO DE PÁGINAS</abbr><small>_name-target()</small></h2>
+                        <p> < iframe src="" name="( target="" )" >< /iframe > </p>
+                        <div> < a href="" target="( name="" )" >< /a > </div> <br>
+                </article>
+                <article>
+                    <h2><abbr title="Coloca somente 1 página para exibir dentro do iframe.">CONTEÚDO LOCAL</abbr><small>_src()</small></h2>
+                        <p> < iframe src="(localização da página)" >< /iframe > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Por padrão, o iframe inicia sem nada exibindo dentro dele, com isso, passa a ter algo exibindo.">CONTEÚDO NA TELA INICIAL</abbr><small>_srcdoc()</small></h2>
+                        <p> < iframe srcdoc="" >< /iframe > </p>
+                </article>
+                <article>
+                    <h2><abbr title="Deixar os iframes mais seguros.">IFRAMES SEGUROS</abbr><small>_sandbox-referrer()</small></h2>
+                        <p> < iframe sandbox="" >< /iframe ></p>
+                        <p> < iframe referrerpolicy="no-referrer" >< /iframe ></p>
+                </article>
+            </section>
+
+            <h1>FORMULÁRIOS</h1>
+                <section>
+                    <article>
+                        <h2><abbr title=""></abbr></h2>
+                    </article>
+                </section>
     </main>
 
 </body>
